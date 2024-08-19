@@ -1,0 +1,33 @@
+.header-container-center {
+  display: flex;
+  align-items: center;
+}
+.header-container-center-ul {
+  display: flex;
+}
+.header-container-center-li-container {
+  width: 130px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.header-container-center-img {
+  width: 24px;
+}
+.header-container-center-cover {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 8px;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.header-container-center-link:hover {
+  .header-container-center-cover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,65 @@
+
+/* Facebook logo */
+
+.header-container-left {
+  display: flex;
+  align-items: center;
+}
+.header-container-left-logo {
+  background-color: #0866FF;
+  border-radius: 20px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 5;
+}
+.header-container-left-letter {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  width: 30px;
+  position: absolute;
+  bottom: -13px;
+  right: -2px;
+  border-bottom-left-radius: 0px;
+  z-index: 10;
+}
+.header-container-left-outline {
+  width: 40px;
+  outline: solid rgb(36, 37, 38) 4px;
+  border-radius: 20px;
+  z-index: 15;
+}
+
+/* Search style */
+
+.header-container-left-search-container {
+  display: grid;
+  background-color: rgb(58, 59, 60);
+  grid-template-columns: 30px 1fr 30px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  align-items: center;
+}
+.header-container-left-search-left {
+  display: flex;
+  justify-content: end;
+}
+.header-container-left-search-icon {
+  width: 20px;
+}
+.header-container-left-search-input {
+  display: flex;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: inherit;
+}
+.header-container-left-search-input::placeholder {
+  color: rgb(133, 133, 133);
+}
+.header-container-left-search-input:focus {
+  outline: none;
+}

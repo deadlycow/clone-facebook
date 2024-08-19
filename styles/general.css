@@ -1,0 +1,24 @@
+p {
+  margin: 0;
+}
+body {
+  background-color: #18191A;
+  font-family: Inter;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-sub {
+  display: flex;
+  justify-content: space-between;
+}

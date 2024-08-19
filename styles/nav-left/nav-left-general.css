@@ -1,0 +1,14 @@
+.left-container {
+  max-width: 360px;
+  min-width: 240px;
+  position: sticky;
+  align-self: flex-start;
+  top: 56px;
+  display: flex;
+}
+.nav-left-ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+

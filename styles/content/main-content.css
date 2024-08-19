@@ -1,0 +1,35 @@
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 37, 38);
+}
+
+.main-content-grid {
+  display: grid;
+  grid-template-columns: 40px 1fr 80px;
+}
+
+.main-content-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-content-name {
+  display: block;
+}
+
+.main-content-name-full {
+  color: white;
+}
+
+.main-content-name-full span {
+  color: orange;
+}
+
+.main-content-close,
+.main-content-more {
+  width: 24px;
+}
