@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(36, 37, 38);
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 .main-content-grid {
   display: grid;
   grid-template-columns: 40px 1fr 80px;
+  padding: 20px;
 }
 
 .main-content-profile {
@@ -18,18 +21,47 @@
 }
 
 .main-content-name {
-  display: block;
+  margin-left: 10px;
 }
 
 .main-content-name-full {
   color: white;
 }
 
-.main-content-name-full span {
-  color: orange;
+.main-content-name-full a {
+  color: LinkText;
+}
+
+.main-content-time {
+  color: rgb(133, 133, 133);
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.main-content-more-close {
+  display: flex;
+  justify-content: end;
 }
 
 .main-content-close,
 .main-content-more {
   width: 24px;
+  margin-left: 10px;
 }
+
+.main-content {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.main-content-only-text {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* for tomorrow add the reaction comments and shares
+    and add buttons under for likes comments send and share
+    also add a post that has a picture */
