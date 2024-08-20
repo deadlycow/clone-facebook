@@ -133,6 +133,7 @@
 
 .main-content-options-container p {
   color: rgb(133, 133, 133);
+  margin-left: 7px;
 }
 
 .option-like,
@@ -142,4 +143,3 @@
   display: flex;
   align-items: center;
 }
-
